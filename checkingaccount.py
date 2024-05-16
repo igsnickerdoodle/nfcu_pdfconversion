@@ -50,15 +50,7 @@ def extract_transactions_from_pdf(pdf_path, categories):
 
     # List of words/phrases to strip from the transaction detail
     unwanted_words = [
-        "POS Debit - Debit Card 9825",
-        "POS Debit - Debit Card 3834",
-        "POS Debit-",
-        "3834",
-        "Paid To",
-        "Debit Card",
-        "POS Credit Adjustment 9825 Transaction",
-        "Transaction",
-        "-"
+
     ]
 
     with pdfplumber.open(pdf_path) as pdf:
