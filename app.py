@@ -1,22 +1,22 @@
 import subprocess
 
 categories = {
-    "Credit Cards": ["Visa", "MasterCard", "AMEX", "Zelle", "Mercury Card", "Credit One", "Capital One"],
-    "Bills": ["Audi Fincl", "Dept Education", "King George County", "Zip.Co", "Verizon", "TMobile", "T-Mobile",
+    "Credit Cards": ["Visa", "MasterCard", "AMEX", "Zelle", "Capital One"],
+    "Bills": ["Audi Fincl", "Dept Education", "Zip.Co", "Verizon", "TMobile", "T-Mobile",
               "T Mobile", "Tmobile"],
-    "Food": ["Restaurant", "Grocery", "Cafe", "Sonic Drive", "Market River Falls", "Marine Mart", 
+    "Food": ["Restaurant", "Grocery", "Cafe", "Sonic Drive", "Market River Falls",
              "Mission Bbq", "Chick-Fil-A", "McDonald's", "Roma Pizza", "Starbucks", "DD/Br", "Pizza Bono", 
              "Benny Vitalis", "Jeresy Mikes", "Firehouse", "Wendys", "Wendy's", "Sonic"],
     "Fuel": ["Murphy Express", "Sheetz", "Wawa", "Shell"],
     "Utilities": ["Electric", "Water", "Internet", "Starlink", "All Point Broadband"],
-    "General": ["Majest Martial Art", "Best Buy", "7-Eleven", "Tobaccohut", "Microsoft", "Wal-Mart", 
-                "Ace Hardware", "Walmart", "Fas Mart", "Tobacco Hut", "Amzn Mktp Us", "Steam", "Tobacco", 
-                "Gateway Tobacco", "Tobacco Land", "The Ups Store", "Ace Hardware"],
+    "General": ["Best Buy", "7-Eleven", "Tobaccohut", "Microsoft", "Wal-Mart", 
+                "Ace Hardware", "Walmart", "Fas Mart", "Tobacco Hut", "Amzn Mktp Us", "Steam", 
+                "The Ups Store", "Ace Hardware"],
     "Maintenance/Parts": ["Fcp Euro", "Rock Auto", "Advance Auto Parts", "bimmergeek", "Kohl's",
                           "Lowe's", "Car Wash", "Rnr Tire Express", "Tire Rack"],
-    "Medical": ["Roberta Price Support"],
+    "Medical": [""],
     "Subscriptions": ["Plexincpass", "Prime Video", "Hidive", "Crunchyroll", "Netflix.Com"],
-    "Income": ["Deposit", "Zachary Piper", "Cash App"],
+    "Income": ["Deposit"],
     "Savings":["Transfered To Shares"]
 }
 
