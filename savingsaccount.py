@@ -111,10 +111,10 @@ def process_pdfs(input_folder, json_output_folder, merged_json_path, merged_csv_
     merge_json_files(json_output_folder, merged_json_path, merged_csv_path)
 
 # Configuration for input and output paths
-input_folder = r'C:\Users\justc\Documents\Gitlab\pdfconvert\pdf'
-json_output_folder = r'C:\Users\justc\Documents\Gitlab\pdfconvert\savings\merged_savings_json\savings_json'
-merged_json_path = r'C:\Users\justc\Documents\Gitlab\pdfconvert\savings\merged_savings_json\merged_savings.json'
-merged_csv_path = r'C:\Users\justc\Documents\Gitlab\pdfconvert\savings\allsavings.csv'
+input_folder = r''
+json_output_folder = r''
+merged_json_path = r''
+merged_csv_path = r''
 
 process_pdfs(input_folder, json_output_folder, merged_json_path, merged_csv_path)
 def cleanup_folders(*folders):
