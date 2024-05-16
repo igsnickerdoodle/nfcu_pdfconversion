@@ -181,11 +181,11 @@ def cleanup_folders(*folders):
                 print(f'Failed to delete {file_path}. Reason: {e}')
 
 # Configuration for input and output paths
-input_folder = r'C:\Users\justc\Documents\Gitlab\pdfconvert\pdf'
-json_output_folder = r'C:\Users\justc\Documents\Gitlab\pdfconvert\checking\merged_checking_json\checking_json'
-csv_output_folder = r'C:\Users\justc\Documents\Gitlab\pdfconvert\checking\csv'
-merged_json_path = r'C:\Users\justc\Documents\Gitlab\pdfconvert\checking\merged_checking_json\merged_checking.json'  # Ensure this is a valid file path ending in .json
-merged_csv_path = r'C:\Users\justc\Documents\Gitlab\pdfconvert\checking\allchecking.csv'  # Ensure this is a valid file path ending in .csv
+input_folder = r''
+json_output_folder = r''
+csv_output_folder = r''
+merged_json_path = r''  # Ensure this is a valid file path ending in .json
+merged_csv_path = r''  # Ensure this is a valid file path ending in .csv
 
 process_pdfs(input_folder, json_output_folder, csv_output_folder, merged_json_path, merged_csv_path, categories)
 
